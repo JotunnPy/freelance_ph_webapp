@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        custom: "-50px 50px 90px gray",
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-textshadow"),
+    require("tailwind-scrollbar")({ nocompatible: true }),
+  ],
 };
