@@ -19,7 +19,7 @@ function Index() {
             </text>
           </span>
           <input
-            className="p-3 rounded-xl mt-5 border-black border-2 "
+            className="p-3 rounded-xl mt-5 border-gray-400 border-2 "
             placeholder="Search"
           />
           <div className="py-3 gap-1 md:gap-3 items-center hidden md:flex">

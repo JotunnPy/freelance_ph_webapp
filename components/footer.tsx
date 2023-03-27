@@ -20,15 +20,18 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex grow pb-10 rounded-xl">
+        <div className="flex flex-col grow pb-10 rounded-xl">
+          <text className="text-center font-bold p-2">
+            Join out NEWSLETTER to get the latest news!
+          </text>
           <div className="mx-auto">
             <input
               className="rounded-l-lg text-white p-2 indent-2 bg-zinc-600"
-              placeholder="Newsletter@gmail.com"
+              placeholder="example@gmail.com"
               type={"email"}
             ></input>
             <button
-              className="bg-white text-black rounded-r-lg px-2 outline-none font-bold h-full
+              className="bg-white text-black rounded-r-lg p-2 outline-none font-bold h-full
             hover:scale-110 transition-all"
             >
               Subscribe
