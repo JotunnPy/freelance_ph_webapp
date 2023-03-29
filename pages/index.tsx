@@ -6,8 +6,8 @@ import { BsArrowRightCircle } from "react-icons/bs";
 function Index() {
   return (
     <div className="">
-      <div className="px-12 md:px-36 py-28 flex flex-col xl:flex-row justify-between items-center">
-        <div className="flex flex-col gap-0">
+      <div className="px-12 md:px-36 py-28 flex flex-col xl:flex-row justify-between items-center overflow-hidden">
+        <div className="flex flex-col gap-0 animate-sl translate-x-0">
           <span className="text-5xl font-semibold leading-tight text-center md:text-left">
             Start your Freelance
             <br /> journey with US!
@@ -36,8 +36,8 @@ function Index() {
           </div>
         </div>
 
-        <div className="relative pt-20 pr-3">
-          <div className="items-center gap-4 w-72 md:w-96 rounded-xl aspect-video bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] flex justify-between from-orange-300 via-pink-500 to-blue-500 left-5 bottom-5 absolute p-2 md:p-5 text-white">
+        <div className="relative pt-20 pr-3 animate-slide translate-x-0">
+          <div className="items-center gap-4 w-72 md:w-96 rounded-xl aspect-video bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] flex justify-between from-orange-300 via-pink-500 to-blue-500  absolute p-2 md:p-5 text-white animate-pop translate-x-6 -translate-y-6">
             <div className="relative">
               <text className="absolute right-0">$</text>
               <text className="text-9xl text-shadow-lg">5</text>
@@ -47,11 +47,12 @@ function Index() {
                 For as low as Php 270 you can get a freelancer to do anything
                 for you!
               </text>
-              <button className="bg-white rounded-lg p-1 md:p-3 shadow-xl text-black hover:scale-105 transition-all">
+              <button className="bg-white rounded-lg p-1 md:p-3 shadow-xl text-black hover:scale-105 transition-all duration-700">
                 Get started
               </button>
             </div>
           </div>
+
           <div className="w-72 md:w-96 rounded-xl aspect-video bg-black shadow-custom"></div>
         </div>
       </div>

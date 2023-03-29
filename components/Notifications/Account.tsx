@@ -3,6 +3,8 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { MdAccountCircle } from "react-icons/md";
 
 export default function Account() {
+  const name = ["Josephine Mackintoshibadidk", "John Doe"];
+  const username = ["Josephineeeeee", "Johnnny"];
   return (
     <div className="">
       <Menu as="div" className="relative inline-block text-left">
@@ -33,11 +35,11 @@ export default function Account() {
                     <div className="bg-black h-20 rounded-full w-20 grow"></div>
                     <div className="flex flex-col p-2 grow  w-44 gap-1">
                       <div className="flex flex-col">
-                        <text className="text-center">
-                          Josephine Mackintoshibaidk
+                        <text className="text-center font-extrabold">
+                          {name[1]}
                         </text>
                         <text className="text-gray-400 text-[10px] text-center">
-                          @username
+                          @{username[1]}
                         </text>
                       </div>
                     </div>

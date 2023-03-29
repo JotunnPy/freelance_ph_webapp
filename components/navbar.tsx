@@ -51,7 +51,7 @@ function Navbar() {
               </Link>
               <Link
                 className="flex flex-1 h-full border-black items-center rounded-lg transition-all focus:border-l-4  focus:border-b-4 focus:text-black focus:border-t-[1px] focus:border-r-[1px] hover:text-black hover:border-t-[1px] hover:border-r-[1px]  hover:border-b-4 hover:border-l-4"
-                href="/"
+                href="/test"
               >
                 <text className="mx-auto">Hire Talents</text>
               </Link>
@@ -72,16 +72,12 @@ function Navbar() {
               />
             </div>
           </div>
-          <div className="hidden lg:flex gap-5 lg:gap-3 mx-3">
-            <button>
-              <BellNotifications />
-            </button>
-            <button>
-              <MessageNotifications />
-            </button>
-            <button>
-              <Account />
-            </button>
+          <div className="hidden lg:flex gap-5 lg:gap-3 mx-3 items-center">
+            <BellNotifications />
+
+            <MessageNotifications />
+
+            <Account />
           </div>
         </div>
       </Popover>

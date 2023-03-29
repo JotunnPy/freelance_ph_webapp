@@ -22,7 +22,7 @@ function Footer() {
 
         <div className="flex flex-col grow pb-10 rounded-xl">
           <text className="text-center font-bold p-2">
-            Join out NEWSLETTER to get the latest news!
+            Join our NEWSLETTER to get the latest news!
           </text>
           <div className="mx-auto">
             <input
