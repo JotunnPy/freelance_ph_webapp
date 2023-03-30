@@ -45,20 +45,20 @@ function Navbar() {
             <div className="flex w-full p-1 gap-2">
               <Link
                 className="flex flex-1 h-full border-black items-center rounded-lg transition-all focus:border-l-4  focus:border-b-4 focus:text-black focus:border-t-[1px] focus:border-r-[1px] hover:text-black hover:border-t-[1px] hover:border-r-[1px]  hover:border-b-4 hover:border-l-4"
-                href="/work"
+                href="/filter"
               >
                 <text className="mx-auto">Find Work</text>
               </Link>
               <Link
                 className="flex flex-1 h-full border-black items-center rounded-lg transition-all focus:border-l-4  focus:border-b-4 focus:text-black focus:border-t-[1px] focus:border-r-[1px] hover:text-black hover:border-t-[1px] hover:border-r-[1px]  hover:border-b-4 hover:border-l-4"
-                href="/test"
+                href="/filter"
               >
                 <text className="mx-auto">Hire Talents</text>
               </Link>
 
               <Link
                 className="flex flex-1 h-full border-black items-center rounded-lg transition-all focus:border-l-4  focus:border-b-4 focus:text-black focus:border-t-[1px] focus:border-r-[1px] hover:text-black hover:border-t-[1px] hover:border-r-[1px]  hover:border-b-4 hover:border-l-4"
-                href="/"
+                href="/Jonnely/Support"
               >
                 <text className="mx-auto text-ellipsis overflow-hidden">
                   Support
