@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useState } from "react";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../context/AuthContext";
 import Link from "next/link";
 
 const Login = () => {
@@ -23,16 +23,16 @@ const Login = () => {
   };
 
   return (
-    <div className=" p-10 w-fit mx-auto border-gray-400 border-2 rounded-xl bg-white">
-      <h1 className="text-center my-3 font-bold">
+    <div className="w-96 p-7">
+      <h1 className="text-center mb-9 font-bold text-lg">
         Please login to your account
       </h1>
       <form onSubmit={handleLogin}>
         <div className="flex flex-col">
-          <div className="flex mb-3 gap-2  place-content-even">
+          <div className="flex mb-3 gap-1  place-content-even items-center">
             <label className="flex-1">Email address:</label>
             <input
-              className="bg-gray-200 indent-4 rounded-lg"
+              className="bg-gray-200 indent-4 rounded-lg p-1"
               onChange={(e: any) =>
                 setData({
                   ...data,
@@ -46,10 +46,10 @@ const Login = () => {
             />
           </div>
 
-          <div className="flex mb-3 gap-2 place-content-even">
+          <div className="flex mb-3 gap-2 place-content-even items-center">
             <label className="flex-1">Password:</label>
             <input
-              className="bg-gray-200 indent-4 rounded-lg"
+              className="bg-gray-200 indent-4 rounded-lg p-1 "
               onChange={(e: any) =>
                 setData({
                   ...data,
@@ -62,16 +62,16 @@ const Login = () => {
               placeholder="Password"
             />
           </div>
-          <div className="flex text-center gap-5 p-5">
+          <div className="flex text-center gap-5 p-5 mt-3">
             <Link
-              className="flex-1 bg-gray-200 rounded-xl hover:bg-black hover:text-white transition-all py-1"
-              href="/test/login"
+              className="flex-1 bg-black text-white rounded-xl hover:bg-gray-200 hover:text-black transition-all py-1"
+              href="/sign_up"
               passHref
             >
               <div>Signup</div>
             </Link>
             <button
-              className="flex-1 bg-gray-200 rounded-xl hover:bg-black hover:text-white transition-all py-1"
+              className="flex-1 bg-black text-white rounded-xl hover:bg-gray-200 hover:text-black transition-all py-1"
               type="submit"
             >
               Login

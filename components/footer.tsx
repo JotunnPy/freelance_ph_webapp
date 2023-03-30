@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -9,14 +10,24 @@ function Footer() {
         <div className="flex grow  px-5 gap-5">
           <div className="flex flex-col grow indent-4 lg:indent-10 p-5 rounded-xl">
             <h1 className="text-gray-400">Company</h1>
-            <h1 className="">About Us</h1>
-            <h1 className="">Careers</h1>
+            <Link className="" href="/Jonnely/Support/about">
+              <h1 className="">About Us</h1>
+            </Link>
+            <Link className="" href="/Jonnely/Support/career">
+              <h1 className="">Careers</h1>
+            </Link>
           </div>
           <div className="flex flex-col grow lg:indent-10 p-5 rounded-xl">
             <h1 className="text-gray-400">Support</h1>
-            <h1 className="">Guides</h1>
-            <h1 className="">Blog</h1>
-            <h1 className="">Terms & Conditions</h1>
+            <Link className="" href="/Jonnely/Support/blog">
+              <h1 className="">Guides</h1>
+            </Link>
+            <Link className="" href="/Jonnely/Support/blog">
+              <h1 className="">Blog</h1>
+            </Link>
+            <Link className="" href="/Jonnely/Support/blog">
+              <h1 className="">Terms & Conditions</h1>
+            </Link>
           </div>
         </div>
 

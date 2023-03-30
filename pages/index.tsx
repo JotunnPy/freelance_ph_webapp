@@ -37,7 +37,7 @@ function Index() {
         </div>
 
         <div className="relative pt-20 pr-3 animate-slide translate-x-0">
-          <div className="items-center gap-4 w-72 md:w-96 rounded-xl aspect-video bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] flex justify-between from-orange-300 via-pink-500 to-blue-500  absolute p-2 md:p-5 text-white animate-pop translate-x-6 -translate-y-6">
+          <div className="items-center gap-4 w-72 md:w-96 rounded-xl aspect-video bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] flex justify-between from-orange-300 via-pink-500 to-blue-500  absolute p-2 md:p-5 text-white animate-pop ">
             <div className="relative">
               <text className="absolute right-0">$</text>
               <text className="text-9xl text-shadow-lg">5</text>
